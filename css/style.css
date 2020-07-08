@@ -12,6 +12,7 @@ body {
   background-color: #ffffff;
   color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
+  second-family: "Raleway", sans-serif;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -28,6 +29,14 @@ html {
   padding: 0;
 }
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .link {
   text-decoration: none;
 }
@@ -38,7 +47,43 @@ html {
 
 /* header */
 
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.logo .header {
+  color: var(--accent-color);
+}
+
+.logo {
+  margin-right: 85px;
+}
+
+.site-nav {
+  display: flex;
+}
+
+.site-nav-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.site-nav-list .logo {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
@@ -66,6 +111,24 @@ html {
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
+}
+
+.auth-nav {
+  display: flex;
+  align-items: center;
+}
+
+.auth-nav-item {
+  margin-right: 30px;
+}
+
+.auth-nav :not(:last-child) {
+  margin-right: 30px;
+}
+
+.auth-nav .site-nav-list {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .auth-nav .auth-nav-list {
