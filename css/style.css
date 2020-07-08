@@ -16,6 +16,18 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
 .link {
   text-decoration: none;
 }
