@@ -46,6 +46,8 @@ html {
 }
 
 /* header */
+.header {
+}
 
 .header .container {
   display: flex;
@@ -77,6 +79,8 @@ html {
 
 .site-nav {
   display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .site-nav-item:not(:last-child) {
@@ -113,13 +117,14 @@ html {
   color: var(--accent-color);
 }
 
+.site-nav-list {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .auth-nav {
   display: flex;
   align-items: center;
-}
-
-.auth-nav-item {
-  margin-right: 30px;
 }
 
 .auth-nav :not(:last-child) {
