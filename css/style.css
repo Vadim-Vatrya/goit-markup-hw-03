@@ -6,6 +6,7 @@
   --primary-white-color: #ccbaba;
   --secondary-white-color: #e0dfe6;
   --primary-bcg-color: #2f303a;
+  --secondary-bcg-color: #f5f4fa;
 }
 
 body {
@@ -176,6 +177,8 @@ html {
 /* Advantages */
 .section .container {
   display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .advantages-list {
@@ -189,7 +192,9 @@ html {
 }
 
 .image {
+  background-color: var(--secondary-bcg-color);
   padding: 25px 100px;
+  margin-bottom: 30px;
 }
 
 .advantages-list .item:not(:last-child) {
@@ -210,6 +215,7 @@ html {
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--secondary-text-color);
+  margin-bottom: 10px;
 }
 
 .decoration {
