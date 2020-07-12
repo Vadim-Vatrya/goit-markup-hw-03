@@ -303,11 +303,21 @@ html {
   display: flex;
 }
 
+/* .contact {
+  display: flex;
+} */
+
 .footer-section .logo {
   color: var(--primary-white-color);
 }
 .footer {
   color: var(--accent-color);
+}
+
+.adress {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 60px;
 }
 
 .mail,
