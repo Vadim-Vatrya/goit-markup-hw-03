@@ -194,18 +194,18 @@ html {
   justify-content: space-between;
 }
 
-.advantages-list .item {
+.item {
   display: flex;
   flex-direction: column;
 }
 
-.image {
+.item-img {
   background-color: var(--secondary-bcg-color);
   padding: 25px 100px;
   margin-bottom: 30px;
 }
 
-.advantages-list .item:not(:last-child) {
+.item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -230,14 +230,6 @@ html {
 
 .working-list {
   display: flex;
-}
-.working-list .item {
-  display: flex;
-  flex-direction: column;
-}
-
-.working-list .item:not(:last-child) {
-  margin-right: 30px;
 }
 
 .image-2 {
@@ -274,12 +266,22 @@ html {
   display: flex;
   flex-direction: column;
 }
+
+.master-img {
+  margin-bottom: 30px;
+}
 .title-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   color: var(--secondary-text-color);
+  margin-bottom: 10px;
+}
+
+.social-list {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .team-title-position {
@@ -287,6 +289,7 @@ html {
   line-height: 1.18;
   text-align: center;
   color: var(--primary-text-color);
+  margin-bottom: 16px;
 }
 /* Clients */
 
