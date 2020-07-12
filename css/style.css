@@ -31,7 +31,7 @@ html {
 }
 
 .container {
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -162,12 +162,20 @@ html {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-white-color);
+  padding-top: 200px;
 }
 
 .modal-btn {
+  display: inline-block;
   font-family: inherit;
   background-color: var(--accent-color);
   color: var(--primary-text-color);
+  padding: 10px 32px;
+  min-width: 200px;
+  border-radius: 6px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
 }
 
 .modal-btn:hover {
@@ -201,14 +209,6 @@ html {
   margin-right: 30px;
 }
 
-.section-title {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  color: var(--secondary-text-color);
-}
-
 .title {
   font-weight: bold;
   font-size: 14px;
@@ -221,7 +221,37 @@ html {
 .decoration {
   color: var(--primary-text-color);
 }
+
 /*  Working*/
+.section .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.working-list {
+  display: flex;
+}
+.working-list .item {
+  display: flex;
+  flex-direction: column;
+}
+
+.working-list .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.image-2 {
+  margin-bottom: 27px;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--secondary-text-color);
+  margin-bottom: 50px;
+}
 
 .working-list-item {
   font-weight: bold;
@@ -230,10 +260,20 @@ html {
   text-align: center;
   text-transform: uppercase;
   color: var(--primary-white-color);
+  padding-bottom: 121px;
 }
 
 /* Our team */
 
+.team-title {
+  display: flex;
+  align-content: space-between;
+}
+
+.team-title-info {
+  display: flex;
+  flex-direction: column;
+}
 .title-name {
   font-weight: 500;
   font-size: 16px;
