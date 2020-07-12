@@ -30,7 +30,7 @@ html {
 }
 
 .container {
-  width: 1200px;
+  width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -46,8 +46,6 @@ html {
 }
 
 /* header */
-.header {
-}
 
 .header .container {
   display: flex;
@@ -150,8 +148,12 @@ html {
 }
 
 /* Hero */
-
+.hero {
+  text-align: center;
+}
 .hero-item {
+  margin-top: 0px;
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -172,6 +174,27 @@ html {
 }
 
 /* Advantages */
+.section .container {
+  display: flex;
+}
+
+.advantages-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages-list .item {
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  padding: 25px 100px;
+}
+
+.advantages-list .item:not(:last-child) {
+  margin-right: 30px;
+}
 
 .section-title {
   font-weight: bold;
