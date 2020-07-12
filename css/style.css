@@ -293,7 +293,15 @@ html {
 }
 /* Clients */
 
+.client-list {
+  display: flex;
+  justify-content: space-between;
+}
 /* footer */
+
+.footer-section .container {
+  display: flex;
+}
 
 .footer-section .logo {
   color: var(--primary-white-color);
