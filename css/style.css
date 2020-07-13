@@ -297,6 +297,15 @@ html {
   display: flex;
   justify-content: space-between;
 }
+
+.item-link {
+  display: flex;
+  width: 170px;
+  height: 90px;
+  align-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
 /* footer */
 
 .footer-section .container {
