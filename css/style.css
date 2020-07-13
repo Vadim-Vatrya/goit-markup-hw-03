@@ -281,7 +281,11 @@ html {
 
 .social-list {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+}
+
+.social-list-icon:not(:last-child) {
+  margin-right: 10px;
 }
 
 .team-title-position {
