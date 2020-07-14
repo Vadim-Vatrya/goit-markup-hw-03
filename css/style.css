@@ -281,7 +281,7 @@ html {
 
 .social-list {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .social-list-icon:not(:last-child) {
@@ -316,21 +316,42 @@ html {
   display: flex;
 }
 
-/* .contact {
-  display: flex;
-} */
+.contact {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-right: 69px;
+}
 
 .footer-section .logo {
+  display: flex;
   color: var(--primary-white-color);
+  margin-bottom: 20px;
 }
 .footer {
   color: var(--accent-color);
 }
 
-.adress {
+.adress-list {
   display: flex;
-  margin-top: 20px;
-  margin-bottom: 60px;
+}
+
+.adress-list-point:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.join {
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+.title,
+.title-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title-list-icon:not(:last-child) {
+  margin-right: 10px;
 }
 
 .mail,
