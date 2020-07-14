@@ -13,55 +13,67 @@
   </head>
 
   <body>
-    <header>
-      <!--Шапка сайта-->
-      <nav>
-        <a href="./index.html" class="logo link"
-          ><span class="header link">Web</span> Studio</a
-        >
-        <ul class="site-nav list">
-          <li>
-            <a href="./index.html" class="site-nav-list link">Студия</a>
-          </li>
-          <li>
-            <a href="./portfolio.html" class="site-nav-list current link"
-              >Портфолио</a
-            >
-          </li>
-          <li>
-            <a href="" class="site-nav-list link">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-      <ul class="auth-nav list">
-        <li>
-          <a href="mailto:info@devstudio.com" class="auth-nav-list link"
-            >info@devstudio.com</a
+    <header class="header">
+      <div class="container">
+        <nav class="navigation">
+          <a href="./index.html" class="logo link"
+            ><span class="header link">Web</span> Studio</a
           >
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="auth-nav-list link"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+          <ul class="site-nav list">
+            <li class="site-nav-item">
+              <a class="site-nav-list link" href="./index.html">Студия</a>
+            </li>
+            <li class="site-nav-item">
+              <a class="site-nav-list current link" href="./portfolio.html"
+                >Портфолио</a
+              >
+            </li>
+            <li class="site-nav-item">
+              <a class="site-nav-list link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div>
+          <ul class="auth-nav list">
+            <li class="auth-nav-item">
+              <a class="auth-nav-list link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="auth-nav-item">
+              <a class="auth-nav-list link" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
 
     <main>
       <!--Portfolio-->
       <section class="section">
-        <h1 hidden>Портфолио</h1>
-        <!--Кнопки фильтра-->
-        <ul class="filtr-list list">
-          <li><button type="button" class="button-filtr">Все</button></li>
-          <li><button type="button" class="button-filtr">Веб-сайты</button></li>
-          <li>
-            <button type="button" class="button-filtr">Приложения</button>
-          </li>
-          <li><button type="button" class="button-filtr">Дизайн</button></li>
-          <li><button type="button" class="button-filtr">Маркетинг</button></li>
-        </ul>
-
+        <div class="container">
+          <h1 hidden>Портфолио</h1>
+          <!--Кнопки фильтра-->
+          <ul class="filtr-list list">
+            <li class="filter-list-button">
+              <button type="button" class="button-filtr">Все</button>
+            </li>
+            <li class="filter-list-button">
+              <button type="button" class="button-filtr">Веб-сайты</button>
+            </li>
+            <li class="filter-list-button">
+              <button type="button" class="button-filtr">Приложения</button>
+            </li>
+            <li class="filter-list-button">
+              <button type="button" class="button-filtr">Дизайн</button>
+            </li>
+            <li class="filter-list-button">
+              <button type="button" class="button-filtr">Маркетинг</button>
+            </li>
+          </ul>
+        </div>
         <ul class="card-list list">
           <li>
             <a href="" class="link">
@@ -69,7 +81,6 @@
                 src="./images/Pictures/picture1.jpg"
                 alt="Ноутбук c cайтом"
               />
-
               <h2 class="card-list-item">Технохряк</h2>
               <p class="text">Веб-сайт</p>
               <p class="text-popup">
@@ -202,57 +213,61 @@
 
     <!--Футер-->
     <footer class="footer-section">
-      <a href="./index.html" lang="en" class="logo link"
-        ><span class="footer">Web</span>Studio</a
-      >
-      <address class="address">
-        <div>
-          <ul class="address-list list">
-            <li>
-              <a class="map link" href="https://goo.gl/maps/y4V5g4TZUduQF8Uq7"
-                >г. Киев, Бульвар Леси Украинки, д. 26</a
-              >
+      <div class="container">
+        <div class="contact">
+          <a class="logo link" href="./index.html" lang="en"
+            ><span class="footer">Web</span>Studio</a
+          >
+          <address class="address">
+            <ul class="address-list list">
+              <li class="adress-list-point">
+                <a class="map link" href="https://goo.gl/maps/y4V5g4TZUduQF8Uq7"
+                  >г. Киев, Бульвар Леси Украинки, д. 26</a
+                >
+              </li>
+              <li class="adress-list-point">
+                <a class="mail link" href="mailto:info@devstudio.com" lang="en"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="adress-list-point">
+                <a class="phone link" href="tel:+380961111111"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="join">
+          <b class="title">ПРИСОЕДИНЯЙТЕСЬ</b>
+          <ul class="title-list list">
+            <li class="title-list-icon">
+              <a href=""
+                ><img
+                  src="./images/Social/instagram.svg"
+                  alt="Логотип Инстаграма"
+              /></a>
             </li>
-            <li>
-              <a class="mail link" href="mailto:info@devstudio.com" lang="en"
-                >info@example.com</a
-              >
+            <li class="title-list-icon">
+              <a href=""
+                ><img src="./images/Social/twitter.svg" alt="Логотип Твиттера"
+              /></a>
             </li>
-            <li>
-              <a class="phone link" href="tel:+380961111111"
-                >+38 099 111 11 11</a
-              >
+            <li class="title-list-icon">
+              <a href=""
+                ><img src="./images/Social/facebook.svg" alt="Логотип Фейсбука"
+              /></a>
+            </li>
+            <li class="title-list-icon">
+              <a href=""
+                ><img
+                  src="./images/Social/linkedin.svg"
+                  alt="Логотип Линкедина"
+              /></a>
             </li>
           </ul>
         </div>
-      </address>
-
-      <b class="title">ПРИСОЕДИНЯЙТЕСЬ</b>
-      <div>
-        <ul class="title-list list">
-          <li>
-            <a href=""
-              ><img
-                src="./images/Social/instagram.svg"
-                alt="Логотип Инстаграма"
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img src="./images/Social/twitter.svg" alt="Логотип Твиттера"
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img src="./images/Social/facebook.svg" alt="Логотип Фейсбука"
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img src="./images/Social/linkedin.svg" alt="Логотип Линкедина"
-            /></a>
-          </li>
-        </ul>
       </div>
     </footer>
   </body>

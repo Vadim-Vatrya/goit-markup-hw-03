@@ -382,9 +382,29 @@ html {
 }
 /* portfolio */
 
-.button-filtr {
+.filtr-list {
+  display: flex;
+  justify-content: center;
+  padding-top: 93px;
+  padding-bottom: 50px;
+}
+.filtr-list-button {
+  display: flex;
+}
+
+.filtr-list-button:not(:last-child) {
+  margin-right: 8px;
+}
+
+.filtr-list-button .button-filtr {
   color: var(--secondary-text-color);
   background-color: var(--secondary-white-color);
+  display: inline-block;
+  font-family: inherit;
+  padding: 10px 32px;
+  min-width: 200px;
+  border-radius: 6px;
+  height: 50px;
 }
 
 .button-filtr:hover,
