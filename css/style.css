@@ -38,6 +38,10 @@ html {
   margin-right: auto;
 }
 
+img {
+  display: block;
+}
+
 .link {
   text-decoration: none;
 }
@@ -386,10 +390,7 @@ html {
   display: flex;
   justify-content: center;
   padding-top: 93px;
-  padding-bottom: 50px;
-}
-.filtr-list-button {
-  display: flex;
+  margin-bottom: 50px;
 }
 
 .filtr-list-button:not(:last-child) {
@@ -401,15 +402,18 @@ html {
   background-color: var(--secondary-white-color);
   display: inline-block;
   font-family: inherit;
-  padding: 10px 32px;
-  min-width: 200px;
+  min-width: 73px;
   border-radius: 6px;
-  height: 50px;
+  height: 38px;
 }
 
 .button-filtr:hover,
 .button-filtr:focus {
   color: var(--accent-color);
+}
+
+.card-list {
+  display: flex;
 }
 
 .card-list .card-list-item {
