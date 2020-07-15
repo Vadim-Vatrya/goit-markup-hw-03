@@ -31,7 +31,7 @@ html {
 }
 
 .container {
-  width: 1200px;
+  width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -40,6 +40,8 @@ html {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .link {
@@ -178,8 +180,6 @@ img {
   min-width: 200px;
   border-radius: 6px;
   height: 50px;
-  left: 700px;
-  top: 430px;
 }
 
 .modal-btn:hover {
@@ -313,6 +313,7 @@ img {
   justify-content: center;
   align-items: center;
   border-radius: 4px;
+  border: 1px solid #afb1b8;
 }
 /* footer */
 
@@ -403,8 +404,9 @@ img {
   display: inline-block;
   font-family: inherit;
   min-width: 73px;
-  border-radius: 6px;
+  border-radius: 4px;
   height: 38px;
+  padding: 6px 22px;
 }
 
 .button-filtr:hover,
@@ -414,6 +416,22 @@ img {
 
 .card-list {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.card-list-number {
+  display: flex;
+  width: 370px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.card-list-number:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.card-list-number:nth-last-child(-n + 3) {
+  margin-bottom: 0px;
 }
 
 .card-list .card-list-item {
