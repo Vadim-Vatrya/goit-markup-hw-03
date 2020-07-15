@@ -31,7 +31,7 @@ html {
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -427,11 +427,11 @@ img {
 }
 
 .card-list-number:nth-child(3n) {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .card-list-number:nth-last-child(-n + 3) {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .card-list .card-list-item {
@@ -440,12 +440,19 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--secondary-text-color);
+  margin-top: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-bottom: 4px;
 }
 
 .card-list .text {
   font-size: 16px;
   line-height: 1.88;
   color: var(--primary-text-color);
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 20px;
 }
 
 .card-list .text-popup {
