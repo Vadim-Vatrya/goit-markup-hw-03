@@ -233,6 +233,7 @@ img {
 }
 
 /*  Working*/
+
 .section .container {
   display: flex;
   flex-direction: column;
@@ -240,10 +241,6 @@ img {
 
 .working-list {
   display: flex;
-}
-
-.image-2 {
-  margin-bottom: 27px;
 }
 
 .section-title {
@@ -262,7 +259,8 @@ img {
   text-align: center;
   text-transform: uppercase;
   color: var(--primary-white-color);
-  padding-bottom: 121px;
+  padding-bottom: 27px;
+  background-color: var(--primary-bcg-color);
 }
 
 /* Our team */
@@ -275,6 +273,10 @@ img {
 .team-title {
   display: flex;
   align-content: space-between;
+}
+
+.team-title .item {
+  background-color: var(--primary-white-color);
 }
 
 .team-title-info {
@@ -298,6 +300,7 @@ img {
 .social-list {
   display: flex;
   justify-content: space-around;
+  padding-bottom: 24px;
 }
 
 .social-list-icon:not(:last-child) {
