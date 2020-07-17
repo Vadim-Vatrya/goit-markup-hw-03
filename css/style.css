@@ -259,6 +259,7 @@ img {
   text-align: center;
   text-transform: uppercase;
   color: var(--primary-white-color);
+  padding-top: 27px;
   padding-bottom: 27px;
   background-color: var(--primary-bcg-color);
 }
