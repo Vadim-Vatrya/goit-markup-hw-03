@@ -410,7 +410,7 @@ img {
 .filtr-list {
   display: flex;
   justify-content: center;
-  padding-top: 93px;
+
   margin-bottom: 50px;
 }
 
@@ -445,6 +445,10 @@ img {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
+}
+
+.card-content {
+  border: 1px solid #eeeeee;
 }
 
 .card-list-number:nth-child(3n) {
