@@ -283,15 +283,13 @@ img {
 
 .team-title .item {
   background-color: var(--primary-white-color);
+  border: 1px solid #eeeeee;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-title-info {
   display: flex;
   flex-direction: column;
-}
-
-.master-img {
-  margin-bottom: 30px;
 }
 
 .title-name {
@@ -300,6 +298,7 @@ img {
   line-height: 1.18;
   text-align: center;
   color: var(--secondary-text-color);
+  padding-top: 30px;
   margin-bottom: 10px;
 }
 
