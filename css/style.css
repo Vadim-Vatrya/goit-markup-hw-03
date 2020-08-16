@@ -154,12 +154,13 @@ img {
 }
 
 /* Hero */
+
 .hero {
   text-align: center;
   margin-bottom: 30px;
 }
 
-.hero .container {
+.hero .container-hero {
   background-color: var(--primary-bcg-color);
   padding-top: 200px;
   padding-bottom: 200px;
@@ -449,6 +450,7 @@ img {
 
 .card-list-number {
   display: flex;
+  /* width: calc((100%-60) / 3); */
   width: 370px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
